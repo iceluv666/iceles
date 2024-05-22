@@ -1,10 +1,10 @@
 package greet
 
 import (
-   "fmt"
+	"fmt"
 )
 
-func Greet(name string, table int) string{
-	return fmt.Sprintf("Добро пожаловать! %s Ваш столик %d", name, table)
+func Greet(name string, table int) string {
+	return fmt.Sprintf("Добро пожаловать, %s! Ваш столик под номером %d", name, table)
 
 }
